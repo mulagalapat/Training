@@ -1,0 +1,63 @@
+1.Java File Structure
+
+A java program is written inside a .java file and follows a specific structure.
+
+Example:
+
+package  mypackage;      //Group of related classes
+import java.util.*;      //Import other classes
+public class Main{       //Class name must match file name(Main.java)
+	public static void main(String[] args){
+
+		//Program starts here
+		System.out.println("Hello World");
+	}
+}
+---------------------------------------------------------------
+2.JAVA COMPILATION AND EXECUTION PROCESS
+
+Java uses a 2-step execution model:
+
+Step1: Compilation
+
+when you compile a Java file:
+
+javac Main.java
+
+Java Compiler (javac) checks for errors
+Creates a .class file containing byte code
+
+Example:
+Input: Main.java
+output: Main.class (byte code)
+
+step2: Execution
+-----------------------------------------------------------------
+Aritmetic operators
+
+operator                    Meaning         Example
++                           Addition        10+5=15
+-                          Subtraction      10-5=5
+*                         Multiplication    10*5=50
+/                           Division        10/5=2
+%                           Modulus         10%5=0
+-------------------------------------------------------------------
+Relational Operators
+
+It is used to compare values
+result it will give boolean values
+
+operator               Meeaning                Example
+>                     greaterthan               10>5
+<                     lessthan                  5<10
+>=               greaterthan or equals to        10>=5
+<=                lessthan or equals to          5<=10
+==                   equals to                   10==10
+!=                  not equals to                 10!=5
+--------------------------------------------------------------------
+Logical Operators
+
+It is used to combine the conditions
+||    OR
+&&    AND
+!     NOT
